@@ -998,6 +998,7 @@ test_sdfg.expand_library_nodes()
 # ---------- ---------- ----------   
 dace.config.Config.set("compiler", "fpga_vendor", value=vendor)
 dace.config.Config.set("compiler", vendor, "mode", value=mode)
+dace.config.Config.set("compiler", "autobuild_bitstreams", value="false")
 
 test_sdfg.validate()
 if caching:
