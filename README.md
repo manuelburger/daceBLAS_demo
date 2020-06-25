@@ -10,7 +10,8 @@ Precompiled bitstreams for the FPGA are in `/bitstreams`
 To preprare for compilation run:
 `source setSubmodules.sh` to install and setup the DaCe framework
 and
-`source setupPython.sh` (you must have the `virtualenv` package installed)
+`source setupPython.sh` (you must have the `virtualenv` package installed) to setup
+the Python environment
 
 ### FPGA
 Run: `performance_synthetic1.py -m hardware 8192`
