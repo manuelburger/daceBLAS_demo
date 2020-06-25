@@ -34,7 +34,7 @@ buf = vector1 + vector5  // AXPY
 result = np.sum(buf)  // ASUM
 ```
 
-Precompiled bitstreams for the FPGA are in `/bitstreams`
+Precompiled bitstreams for the FPGA are in `/bitstreams`. The code requires a recent version of GCC to be available in the environment and a recent version of CMake.
 
 ## Compile
 
