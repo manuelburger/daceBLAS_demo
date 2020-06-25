@@ -75,7 +75,7 @@ IMPLEM = 'cublas'
 n = dace.symbol("n")
 a = dace.symbol("a")
 
-test_sdfg = dace.SDFG("perf_synthetic1_cpu")
+test_sdfg = dace.SDFG("perf_synthetic1_gpu")
 test_state = test_sdfg.add_state("test_state")
 
 test_sdfg.add_symbol(a.name, DATATYPE)
