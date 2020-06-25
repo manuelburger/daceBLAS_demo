@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/burgerm/daceBLAS_demo/daceEnv/lib/python3.6/site-packages/dace/codegen/tools/dacestub.cpp
+windows.h
+-
+dlfcn.h
+-
+omp.h
+-
+

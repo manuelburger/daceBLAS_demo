@@ -1,0 +1,4 @@
+cpu,,perf_synthetic1.cpp
+xilinx,host,perf_synthetic1.cpp
+xilinx,device,test_state.cpp
+xilinx,device,test_state_memory_interfaces.csv
