@@ -39,9 +39,15 @@ Precompiled bitstreams for the FPGA are in `/bitstreams`
 ## Compile
 
 To preprare for compilation run:
-`source setSubmodules.sh` to install and setup the DaCe framework
-and
-`source setupPython.sh` (you must have the `virtualenv` package installed) to setup
+
+`source setSubmodules.sh`
+
+to install and setup the DaCe framework and
+
+
+`source setupPython.sh` (you must have the `virtualenv` package installed)
+
+to setup
 the Python environment. Run the below commands to compile, after compiling once one can ran
 with the `-c` flag, which prevents recompilation and directly runs the previously compiled code.
 
